@@ -1,7 +1,4 @@
-# ghost-tunnel (Spanish)
-Aquí te propongo un README más extenso y detallado:
-
-# Túnel SSH Anónimo sobre Tor
+# Túnel SSH Anónimo sobre Tor 
 
 Este proyecto implementa un poderoso túnel SSH totalmente anónimo utilizando la red Tor y múltiples proxies intermedios. Permite enrutar cualquier tráfico de red a través de este túnel de forma altamente privada y anónima.
 
@@ -58,23 +55,29 @@ proxies_password = 'secreta123'
 
 Una vez configurado, para iniciar el túnel SSH simplemente ejecutar el script Python:
 
+```bash
 python tunelssh.py
+```
 
 Esto establecerá el túnel a través de un servidor SSH intermediario elegido al azar y configurará el sistema para enrutar todo el tráfico a través de él.
 
-Luego se puede verificar que el tráfico sale a través de Tor utilizando un servicio como [OnionCheck](https://onioncheck.com/).
+Luego se puede verificar que el tráfico sale a través de Tor utilizando un servicio como [OnionCheck ↗](https://onioncheck.com/).
 
 ## Rotación de Identidad y Proxy
 
 Para rotar la IP de salida de Tor se puede ejecutar el siguiente script:
 
+```bash
 python nueva_identidad.py
+```
 
 Esto forzará la obtención de un nuevo circuito y dirección IP de salida.
 
 De forma similar, para cambiar el proxy SOCKS5 intermediario:
 
+```bash
 python nuevo_proxy.py
+```
 
 Se recomienda rotar periodicamente tanto la IP de Tor como el proxy para maximizar el anonimato.
 
@@ -86,6 +89,10 @@ Este proyecto es de código abierto, así que son bienvenidas las contribuciones
 - Soporte para otras plataformas.
 - Compatibilidad con otras bibliotecas.
 - Características de seguridad adicionales.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia XYZ. Ver el archivo LICENSE para más detalles.
 
 (English)
 
