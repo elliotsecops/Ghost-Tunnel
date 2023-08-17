@@ -90,10 +90,6 @@ Este proyecto es de código abierto, así que son bienvenidas las contribuciones
 - Compatibilidad con otras bibliotecas.
 - Características de seguridad adicionales.
 
-## Licencia
-
-Este proyecto se distribuye bajo la licencia XYZ. Ver el archivo LICENSE para más detalles.
-
 (English)
 
 # Anonymous Tor SSH Tunnel
